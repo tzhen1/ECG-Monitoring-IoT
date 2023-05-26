@@ -1,12 +1,12 @@
 #include <WiFi.h>
 #include "ThingSpeak.h"
 
-const char *ssid = "HUAWEI P30 Pro";     // wifi ssid
-const char *password = "7c11c1ff179d";   // Wifi-password
+const char *ssid = "Huawei_phone";     // wifi ssid
+const char *password = "wifi_pass";   // Wifi-password
 
 WiFiClient client;
-unsigned long myChannelNumber = 2067420;
-const char * myWriteAPIKey = "UF33A49CFM8FDGNN";
+unsigned long myChannelNumber = chan_val;
+const char * myWriteAPIKey = "aPII";
 
 // Timer variables
 unsigned long lastTime = 0;
